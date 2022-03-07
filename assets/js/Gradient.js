@@ -492,7 +492,6 @@ function e(object, propertyName, val) {
 //Gradient object
 class Gradient {
   constructor(...t) {
-    console.log("from gradientjs");
     e(this, "el", void 0),
       e(this, "cssVarRetries", 0),
       e(this, "maxCssVarRetries", 200),
